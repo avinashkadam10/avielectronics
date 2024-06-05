@@ -201,6 +201,9 @@ span{
     border-radius: .4rem;
     width: 20rem;
     padding: 1rem 2rem;
+    animation: cards linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
 }
 .card .image img{
     width: 16rem;
@@ -415,5 +418,25 @@ footer{
     }
     to{
        top: 0px;
+    }
+}
+@keyframes cards{
+    from{
+        opacity: 0.5;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+@keyframes information{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
     }
 }
