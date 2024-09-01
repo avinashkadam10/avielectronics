@@ -447,7 +447,7 @@ footer{
 
 
 /* media queries */
- @media screen and (min-width:350px) and (max-width:600px){
+ @media screen and (min-width:350px) and (max-width:1200px){
     
     header{
         padding: 0 .7rem;
@@ -585,4 +585,5 @@ footer{
    
  }
 
+ 
  
